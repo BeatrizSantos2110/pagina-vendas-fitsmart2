@@ -20,6 +20,7 @@ export default function FitSmartLanding() {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 text-white font-semibold px-8 py-6 text-lg rounded-full shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 hover:scale-105"
+              onClick={() => window.open('https://app-fitsmart-so97.vercel.app/', '_blank')}
             >
               Acesse Agora
               <ArrowRight className="ml-2 w-5 h-5" />
@@ -334,6 +335,7 @@ export default function FitSmartLanding() {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 text-white font-semibold px-10 py-7 text-xl rounded-full shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 hover:scale-105 mb-4"
+              onClick={() => window.open('https://app-fitsmart-so97.vercel.app/', '_blank')}
             >
               Acesse Agora e Comece sua Jornada!
               <ArrowRight className="ml-2 w-6 h-6" />
