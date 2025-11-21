@@ -1,6 +1,6 @@
 "use client"
 
-import { Dumbbell, Video, Utensils, Camera, Flame, Droplets, Bell, CheckCircle, ArrowRight, Star } from "lucide-react"
+import { Dumbbell, Video, Utensils, Flame, Droplets, Bell, CheckCircle, ArrowRight, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function FitSmartLanding() {
@@ -21,7 +21,7 @@ export default function FitSmartLanding() {
               size="lg" 
               className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 text-white font-semibold px-8 py-6 text-lg rounded-full shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 hover:scale-105"
             >
-              Baixe Agora
+              Acesse Agora
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </div>
@@ -69,17 +69,6 @@ export default function FitSmartLanding() {
               <h3 className="text-xl font-bold text-white mb-3">Plano Alimentar Personalizado</h3>
               <p className="text-gray-400">
                 Diga adeus às dietas genéricas. O FitSmart ajusta um plano alimentar de acordo com suas restrições e preferências, para que você possa se alimentar bem.
-              </p>
-            </div>
-
-            {/* Feature 4 */}
-            <div className="bg-gradient-to-br from-slate-800 to-slate-900 p-6 md:p-8 rounded-2xl border border-cyan-500/20 hover:border-cyan-500/40 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/20">
-              <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center mb-4">
-                <Camera className="w-6 h-6 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-white mb-3">Controle Calórico Inteligente</h3>
-              <p className="text-gray-400">
-                Tire fotos dos seus pratos e registre as calorias ingeridas. O FitSmart faz o trabalho pesado, armazenando tudo para que você tenha uma visão clara do que come.
               </p>
             </div>
 
@@ -346,7 +335,7 @@ export default function FitSmartLanding() {
               size="lg" 
               className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 text-white font-semibold px-10 py-7 text-xl rounded-full shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 hover:scale-105 mb-4"
             >
-              Baixe Agora e Comece sua Jornada!
+              Acesse Agora e Comece sua Jornada!
               <ArrowRight className="ml-2 w-6 h-6" />
             </Button>
 
